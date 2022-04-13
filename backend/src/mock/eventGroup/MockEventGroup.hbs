@@ -1,0 +1,12 @@
+[
+{{#repeat min=10 max=50}}
+    {
+        "eventTitle": "{{articletitle}}",
+        "image": "/img/{{int 1 16}}.jpg",
+        "publish": "{{date '2021-01-01T00:00' '2022-03-20T24:00'}}",
+        "description": "{{lorem min=10 max=50}}",
+        "articles":[],
+        "property":[]
+    }
+{{/repeat}}
+]
